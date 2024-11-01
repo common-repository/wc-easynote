@@ -1,0 +1,20 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+
+
+.post-type-shop_order .wp-list-table .order-notes:hover, .woocommerce_page_wc-orders .wp-list-table .order-notes:hover {
+    border: 2px solid #00a0d2;
+}
+
+.post-type-shop_order .wp-list-table .order-notes, .woocommerce_page_wc-orders .wp-list-table .order-notes {
+    float: right;
+    font-size: 12px;
+    line-height: 15px;
+    padding: 2px;
+    position: relative;
+    border: 2px solid transparent;
+    border-radius: 4px;
+}
